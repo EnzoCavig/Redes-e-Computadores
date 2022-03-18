@@ -1,0 +1,10 @@
+#titulo {
+    size: 100px;
+    color: black;
+}
+
+#retorno {
+    float:right;
+    size: 100px;
+    color: black;
+}
