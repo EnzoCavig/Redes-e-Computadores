@@ -1,0 +1,27 @@
+#principal {
+    color:rgb(144, 25, 255);
+    text-align: justify;
+    float: left;
+    margin-left: 500px;
+}
+
+.retorno{
+    text-align: justify;
+     color: rgb(89, 0, 255); 
+     float: right;
+     margin-right: 500px;
+}
+
+#cliente{
+    border: 1px solid;
+    width: 500px;
+    height: 100px;
+    margin-left: -40px;
+}
+
+#servidor {
+    border: 1px solid;
+    width: 200px;
+    height: 100px;
+    margin-left: -40px;
+}
