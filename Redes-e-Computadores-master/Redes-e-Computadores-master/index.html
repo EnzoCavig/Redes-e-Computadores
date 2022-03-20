@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Trabalho Redes de Computadores</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="index.css" rel="stylesheet" type="text/css" />
+            <script src="cliente.js" type="text/javascript"></script>
+    </head>
+    <body>
+       <div id="principal" >
+                <div id="titulo">
+                    <h1>Cliente</h1>
+                        <select id="lista">
+                
+                            <option value="https://www.google.com/">www.google.com</option>
+                            <option value="https://www.youtube.com/">www.youtube.com</option>
+                            <option value="https://www.instagram.com/">www.instagram.com</option>
+                            <option value="https://www.linkedin.com/">www.linkedin.com</option>
+                            <option value="https://www.facebook.com/">www.facebook.com</option>
+
+                            <input type="button" value="ir" ondblclick="onClickBotaoCliente()">
+                            <br> 
+                        </select>
+                        <div name="cliente" id="cliente" cols="25" rows="10"></div>
+                </div>
+               
+        </div> 
+        <div class="retorno">
+           
+                <h1>Servidor</h1>
+                    <select id="lista_servidor">
+                        <option value="ativado">Ativado</option>
+                        <option value="desativado">Desativado</option>
+                    </select>
+                <div name="servidor" id="servidor" cols="30" rows="12" ></div>
+        </div>
+        
+    </body>
+</html>
