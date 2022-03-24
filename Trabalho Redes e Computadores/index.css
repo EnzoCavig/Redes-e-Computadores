@@ -1,0 +1,41 @@
+#principal {
+    color: red;
+    float: left;
+    margin-left: 400px;
+}
+
+.retorno{
+    text-align: justify;
+     color: red; 
+     float: right;
+     margin-right: 400px;
+}
+
+#cliente{
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    margin-right: -100px;
+    padding: 10px;
+}
+
+#servidor {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    margin-right: -50px;
+    padding: 10px;
+}
+
+#botao_consultar {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#lista_sites {
+    width: 231px;
+}
+
+#lista_servidor {
+    width: 322px;
+}
